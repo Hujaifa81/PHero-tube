@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHERO-TUBE</title>
+
+
+    <!-- cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+
+<body class="w-[95%] mx-auto">
+    <header>
+        <nav class="my-3">
+            <div class="navbar bg-base-100 flex flex-col md:flex-row gap-4 ">
+                <div class="navbar-start">
+                  <div>
+                    <img src="./Logo.png" alt="">
+                  </div>
+                </div>
+                <div class="navbar-center">
+                  <a class="btn btn-ghost normal-case text-lg bg-[#25252533] text-[#252525]" onclick="sortBtn()">Sort by view</a>
+                </div>
+                <div class="navbar-end flex justify-center items-center md:justify-end">
+                  <a href="./blog.html" target="_blank" class="btn btn-ghost bg-red-500 text-white">Blog</a>
+                </div>
+              </div>
+              
+        </nav>
+        <hr class="w-[98%] mx-auto">
+    </header>
+    <main>
+        <section>
+            <!-- tab -->
+            <div class="tab-container flex-col md:flex-row flex justify-center gap-4 my-8" id="tab-container">   
+            </div>
+            <!-- cards -->
+            <div class="card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full md:w-[95%] mx-auto gap-6 md:gap-0 lg:gap-12" id='cardContainer'>
+            </div>
+        </section>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

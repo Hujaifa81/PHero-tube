@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <!-- cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main>
+        <section class="px-6 list-none">
+            <li class="font-bold text-center my-4">Scope of  var, let, and const</li>
+            <hr>
+            <div>
+                <li class="px-7 font-semibold">Var :</li>
+                <div class="px-9 mx-auto">
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">Function Scope:</span> When we declare a variable with var, it can only be used inside the function where it's declared. 
+                    </p>
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">Hoisting:</span> JavaScript moves the var variable declarations to the top of their containing function or the global context.
+                    </p>
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">Redeclaration Allowed:</span> We can declare the same var variable name multiple times within the same function or global scope without any errors. The later declarations effectively override the earlier ones.
+                    </p>
+            </div>
+            <div>
+                    <li class="px-7 font-semibold">let :</li>
+                    <div class="px-9 mx-auto">
+                        <p class="my-3">
+                            <span class="text-lg font-semibold">Block Scope:</span> It can only be used inside the block  where it's declared. It won't be accessible outside of that block. 
+                        </p>
+                        <p class="my-3">
+                            <span class="text-lg font-semibold">Mutable Value:</span>let variables allow us to change (reassign) their values after they have been initially declared and assigned.
+                        </p>
+                        <p class="my-3">
+                            <span class="text-lg font-semibold">No Redeclaration:</span> We can't declare the same let variable name multiple times within the same block or scope. 
+                        </p>
+            </div>
+            <div>
+                <li class="px-7 font-semibold">let :</li>
+                <div class="px-9 mx-auto">
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">Block Scope:</span> It can only be used inside the block  where it's declared. It won't be accessible outside of that block. 
+                    </p>
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">Immutable Value:</span>If we assigned a value once,it cannot be reassigned to a new value. They are considered constant or immutable.
+                    </p>
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">No Redeclaration:</span> We can't declare the same let variable name multiple times within the same block or scope. 
+                    </p>
+            </div>
+        </section>
+        <section class="px-6 list-none my-3">
+            <li class="font-bold text-center my-4">Use cases of null and undefined</li>
+            <hr>
+            <div>
+                <li class="px-7 font-semibold">null :</li>
+                <div class="px-9 mx-auto">
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">Intentional absence of Value:</span>null is a value that represents the absence of an object or value.It is often used to indicate that a variable, object property, or function return value intentionally has no value or is empty.
+                    </p>
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">Clearing Value:</span>We can set a variable to null to clear or reset its value, especially in objects or data structures.
+                    </p>
+            </div>
+            <div>
+                <li class="px-7 font-semibold">Undefined :</li>
+                <div class="px-9 mx-auto">
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">Missing Object Properties:</span>If we want to access a property of an object that does not exist, it returns undefined. This is useful for checking the existence of properties in objects.
+                    </p>
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">Array Elements that Don't Exist:</span>When we access an element in an array at an index that doesn't exist, it returns undefined. 
+                    </p>
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">Accessing Object Properties That Are Not Present:</span>When you want to access a property of an object that doesn't exist, it also returns undefined. 
+                    </p>
+            </div>
+
+        </section>
+        <section class="px-6 list-none my-3">
+            <li class="font-bold text-center my-4">REST API</li>
+            <hr>
+            <div>
+                <div class="px-9 mx-auto">
+                    <p class="my-3">
+                        REST API is a way of accessing web services in a simple and flexible way without having any processing.REST API is an API that conforms to the design principles of the REST, or representational state transfer architectural style.REST APIs are designed to allow different software applications to communicate with each other over the internet by making requests and receiving responses using standard HTTP methods and data formats.
+                    </p>
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">Resources:</span>In REST, everything is treated as a resource. Resources can be data objects, services, or even entities like users, products, or orders.  
+                    </p>
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">Representation:</span>Data exchanged between the client and server is typically in a standardized format, such as JSON or XML.
+                    </p>
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">HTTP Methods:</span>REST APIs use standard HTTP methods to perform actions on resources. The most commonly used HTTP methods in REST are:GET,POST,PUT,DELETE.
+                    </p>
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">Uniform Interface:</span>REST APIs have a uniform and consistent interface, which simplifies interactions. Clients interact with resources using standard HTTP methods and URLs.
+                    </p>
+                    <p class="my-3">
+                        <span class="text-lg font-semibold">HTTP Status Codes:</span>REST APIs use HTTP status codes to indicate the result of a request. Common status codes are:200 OK,
+                        201 Created,204 No Content,400 Bad Request,401 Unauthorized,403 Forbidden,404 Not Found,500 Internal Server Error.
+                    </p>
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>
