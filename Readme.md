@@ -1,13 +1,6 @@
-Live link: https://hujaifa81.github.io/PHero-tube/
+# Live link: https://hujaifa81.github.io/PHero-tube/
 
 # PHero-tube
-
-## [ Private Repo Link](https://classroom.github.com/a/HIPmbF3j)
-
-Click here for the private repo: [https://classroom.github.com/a/HIPmbF3j](https://classroom.github.com/a/HIPmbF3j)
-
-
-
 # API
 
 All category :  - https://openapi.programming-hero.com/api/videos/categories
